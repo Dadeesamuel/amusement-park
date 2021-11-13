@@ -86,6 +86,33 @@ button{
 .footer{
    
     background-position-x: center;
+    
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.tel{
+    -webkit-text-size-adjust: 100%;
+    hyphens: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: none;
+}
+.contact-us{
+   
+    background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,5 +121,3 @@ button{
     background-clip: initial;
     background-color: rgb(255, 255, 255);
 }
-
-    
