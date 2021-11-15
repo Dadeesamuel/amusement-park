@@ -1,10 +1,10 @@
-# ADDRESS-BOOK
+# ACEDU AMUSEMENT PARK
 
 The address book is a site where user can add there name, phone number and email address for future references.
 
 ## How to visit
 
-[click](https://dadeesamuel.github.io/adress-book) to visit our store.
+[click](https://dadeesamuel.github.io/amusement-park) to visit our store.
 
 ## TABLE OF CONTENT
 

@@ -86,7 +86,7 @@ button{
 .footer{
    
     background-position-x: center;
-    
+
     background-position-y: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ button{
     margin: 0;
 }
 .tel{
-    -webkit-text-size-adjust: 100%;
+   
     hyphens: none;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -120,4 +120,38 @@ button{
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(255, 255, 255);
+}
+.icon-box{
+font-size: 1rem;
+hyphens: none;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+color: #000000;
+text-align: center;
+box-sizing: border-box;
+
+}
+#icon{
+     width: 100%;
+    text-align: center;
+}
+.su-tabs-pane{
+-webkit-text-size-adjust: 100%;
+line-height: 1.75;
+hyphens: none;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+word-wrap: normal;
+text-align: center;
+background: none !important;
+padding: 15px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+color: #333;
+font-size: 13px;
+box-sizing: border-box!important;
+padding: 15px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: #fff;
+    color: #333;
+    font-size: 13px;
 }
