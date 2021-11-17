@@ -1,6 +1,6 @@
 # ACEDU AMUSEMENT PARK
 
-The address book is a site where user can add there name, phone number and email address for future references.
+The amusement park is a site where acedu students and staff register to view games they can actual play for future references.
 
 ## How to visit
 
