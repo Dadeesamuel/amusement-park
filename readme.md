@@ -1,6 +1,6 @@
 # ACEDU AMUSEMENT PARK
 
-The amusement park is a site where acedu students and staff register to view games they can actual play for future references.
+The amusement park is a site where acedu students and staff can view or know more about acedu amusement.
 
 ## How to visit
 
@@ -10,13 +10,15 @@ The amusement park is a site where acedu students and staff register to view gam
 
 * [HOME](index.html)
 
-* [SCRIPTS](scripts.js)
+* [UPCOMING EVENTS](index.html)
 
-* [css](style.css)
+* [OUR RIDE](form2.html)
+
+* [CONTACT](contact.html)
 
 ## BUILT WITH
 
-* Javascipt
+* Vanilla Javascipt
 
 * Html
 

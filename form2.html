@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>address-book</title>
+    <title>amusement park</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -14,8 +14,32 @@
 
 </head>
 <body >
+
+    <!-- nav-bar -->
+    <nav>
+     
+        <a href="index.html" role="link">HOME</a>
+        <a href="#" role="link">UPCOMING EVENTS</a>
+        
+        <a href="#" role="link" class="drop">OUR RIDES
+         <div class="drop-down">
+           <a href="#" role="link"> Spectacular Rides</a>
+           <a href="#" role="link">Major Rides</a>
+           <a href="#" role="link">Kiddies Rides</a>
+         </div>
+        </a>
+ 
+ 
+        <a href="contact.html" role="link">CONTACT</a>
+     
+     </nav>
+    
+     <!-- header video-->
+     <video autoplay="autoplay" loop="loop" muted="" width="100%" height="auto"><source src="image/amusement-video.mov" type="video/mp4"></video>
+ 
+  
 <div class="container">
-    <h1 class="text-center">ACEDU AMUSEMENT PARK</h1>
+    <h1 style="color: #004E81; font-family: Playfair Display, serif; text-align: center; ">ACEDU AMUSEMENT PARK</h1>
     <form  class="data" >
     <div >
         <label for="username">SURNAME</label>
@@ -26,16 +50,31 @@
         <input type="text" class="form-control" autofocus>
     </div>
     <div >
-        <label for="wear"><h3>select height in metres</h3></label>
+        <label for="wear"><h3>select height in metres</h3></label><br>
         <select name="metres" id="metres"  autofocus>
             <option value=""></option>
             <option value="short" class="short">0.5m - 1.4m</option>
             <option value="average" class="average">1.5m-1.7m</option>
             <option value="tall" class="tall">1.8m-2.5m</option>
              </select>
-    </div>
+    </div><br>
     <input type="submit" value="Submit" class="text-center" autofocus>
 </div>
-</form>
+</form><br><br><br>
+
+<footer class="text-center jumbotron" style="padding-top: 2%; padding-bottom: 2%; color: white;background-color: #555555;">
+    <h6>© 2021 Acedu Amusements. All rights reserved.<br>
+      Fairs and Carnivals in accordance to age and height group<br>
+      Notice of Photographic and Media Recording.<br>
+    </h6>
+    
+    <h6 class="footer-social-media-buttons" >
+      <a href="http://www.facebook.com/"><img src="image/icon-footer-facebook.jpg" alt="facebook"></a>
+      <a href="http://instagram.com/"><img src="image/icon-footer-instagram.jpg" alt="instagram"></a>
+      <a href="https://www.youtube.com/"><img src="image/icon-footer-youtube.jpg" alt="youtube"></a></h6>
+    </footer>
+    
+    </body>
+    </html>
 </body>
 </html>

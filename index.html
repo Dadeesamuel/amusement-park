@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>address-book</title>
+    <title>amusement park</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -16,23 +16,25 @@
 <body >
 
 <!-- nav-bar -->
-    <nav>
-        
-       <a href="index.html" role="link">HOME</a>
-       <a href="#" role="link">UPCOMING EVENTS</a>
-       
-       <a href="#" role="link" class="drop">OUR RIDES
-        <div class="drop-down">
-          <a href="#" role="link"> Spectacular Rides</a>
-          <a href="#" role="link">Major Rides</a>
-          <a href="#" role="link">Kiddies Rides</a>
-        </div>
-       </a>
-
-
-       <a href="#" role="link">CONTACT</a>
-       
-    </nav>
+      <div >
+        <nav > 
+         
+               
+               <a href="index.html" style="color:rgb(8, 8, 8);">HOME</a>
+               <a href="#event" style="padding: 70px; color:rgb(5, 5, 5);">UPCOMING EVENTS</a>
+               <a href="contact.html"  style="color:rgb(10, 9, 10);">CONTACT</a>
+               
+   <div class="dropdown" style="padding-left:60px ;">
+       <a href="#" class="dropbtn" style="color:rgb(11, 10, 12);">WEARS</a> 
+   <div class="dropdown-content ">
+    <a href="#"> Spectacular Rides</a>
+    <a href="#">Major Rides</a>
+    <a href="#">Kiddies Rides</a>
+  
+   </div>
+  </nav>
+      </div>
+    
    
     <!-- header video-->
     <video autoplay="autoplay" loop="loop" muted="" width="100%" height="auto"><source src="image/amusement-video.mov" type="video/mp4"></video>
@@ -41,6 +43,8 @@
 
 
 <!--categories of ride -->
+
+<h2 style="color: #004E81; font-family: Playfair Display, serif; text-align: center; font-size: 50px; "> Categories </h2>
     <div  style="margin: auto; width: 80%;">
         <div class=" row container" style=" padding: 15px;">
 
@@ -73,7 +77,7 @@
         </div>
 
 <!--upcoming events -->
-<div class="upcoming-event" style="background-image: url(image/bg-upcoming-events.jpg);">
+<div class="upcoming-event"  id="event"style="background-image: url(image/bg-upcoming-events.jpg);">
   <p class="text-center" style="padding-top: 20px;"><img src="image/upcoming-events-banner-300x67.png" alt="Upcoming Events" width="300" height="67" srcset="image/upcoming-events-banner-300x67.png" sizes="(max-width: 300px) 85vw, 300px"></p>
   <div id="home">
   <div class="event-box" style="background-image: url(image/bg-side.gif);">
@@ -149,7 +153,7 @@
 <div >
 <div class="footer row" style="background-image:url(image/bg-footer.jpg); background-size: cover; height: 300px;" id="icon">
       <div class="icon-box">
-      <p><a href="#" role="link"><img src="image/icon-box-rides.jpg" alt="Rides" width="98" height="98"></a></p>
+      <p><a href="#"><img src="image/icon-box-rides.jpg" alt="Rides" width="98" height="98"></a></p>
      </div>
       <div class="icon-box">
       <p><a href="#" ><img  src="image/icon-box-games.jpg" alt="Games" width="98" height="98"></a></p>
@@ -185,7 +189,7 @@
 </div>
 </div>
 
-<footer class="text-center foot">
+<footer class="text-center jumbotron" style="padding-top: 2%; padding-bottom: 2%; color: white;background-color: #555555;">
 <h6>© 2021 Acedu Amusements. All rights reserved.<br>
   Fairs and Carnivals in accordance to age and height group<br>
   Notice of Photographic and Media Recording.<br>
